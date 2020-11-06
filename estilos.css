@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+body{
+    background: #c8c8c8;
+    font-family: sans-serif;
+    padding-top: 330px;
+    transition: padding-top 0.5s ease;
+}
+header{
+    width: 100%;
+    height: 300px;
+    background: rgb(46, 83, 248);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+header h1{
+    font-size: 42px;
+    color: white;
+    line-height: 230px;
+    font-weight: 300;
+    transition: all 0.3s eas  e;
+}
+header h1 i{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background: rgba(83, 172, 255, 0.938);
+}
+header nav p{
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 5px;
+}
+header nav p:hover{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cuadro{
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    height: 1100px;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) ;
+    overflow: hidden;
+}
+
+.cuadro .not1{
+width: 25%;
+height: 85%;
+border: #222121 1px solid;
+float: left;
+}
+
+.cuadro .not1 h4{
+   font-size: 24px;
+   text-align: center;  
+    }
+    .cuadro .not1 p{
+        font-size: 20px;
+        text-align: center;  
+         }
+         
+.cuadro .not2{
+    width: 50%;
+    height: 85%;    
+    float: left;
+}
+.cuadro .not2 h4{
+    font-size: 30px;
+    text-align: center;  
+    
+     }
+     .cuadro .not2 p{
+         font-size: 24px;
+         text-align: center;  
+          }
+.cuadro .cuadro2{
+    width: 25%;
+    height: 85%;
+    float: left;
+}
+
+.cuadro .cuadro2 h4{
+    font-size: 24px;
+    text-align: center;  
+    
+     }
+     .cuadro .cuadro2 p{
+         font-size: 16px;
+         text-align: center;  
+          }
+
+
+.cuadro2 .not3{
+    width: 100%;
+    height: 33%;
+    border: #222121 1px solid;
+}
+.cuadro2 .not4{
+    width: 100%;
+    height: 33%;
+    border: #222121 1px solid;
+}
+.cuadro2 .not5{
+    width: 100%;
+    height: 33%;
+    border: #222121 1px solid;
+}
+
+.enlace{
+    margin-top: 80%;
+    width: 100%;
+    height: 15%;
+    border: 1px #222121 solid;
+    
+}
+.enlace .enlace1{
+    width: 23%;
+    height: 100%;
+    float: left;
+    padding-top: 50px;
+    
+}
+.enlace .enlace1 a{
+    text-decoration: none;
+    color: #222121;
+    font-size: 50px; 
+    padding: 30px;   
+ }
+
+ .enlace .enlace1 a:hover{
+    color: aliceblue; 
+    background: #222121;
+    border-radius: 25px;
+       
+ }
+
+
+
+
+body.sticky-header{
+    padding-top: 100px;
+}
+body.sticky-header header{
+  height: 60px;
+  background: rgba(46, 83, 248);
+}
+body.sticky-header header h1{
+    transform: scale(0, 0);
+}
